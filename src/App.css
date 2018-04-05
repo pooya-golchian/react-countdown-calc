@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  font-size: 1em;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.countdown__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.countdown--title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.countdown__clock {
+  display: flex;
+  flex-direction: row;
+  font-weight: lighter;
+  justify-content: center;
+  align-items: center;
+  margin: 1em auto;
+}
+
+.countdown__clock--item {
+  padding-right: 0.5em;
+}
+
+.countdown__form {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.countdown__form input {
+  display: flex;
+  flex: 10 2;
+}
+
+.countdown__form button {
+  display: flex;
+  flex: 1 2;
+}

@@ -2,7 +2,7 @@
   "name": "countdown",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://pooya-golchian.github.io/react-countdown-calc",
+  "homepage": "http://pooyagolchian.ir/react-countdown-calc/",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "react": "^16.3.1",

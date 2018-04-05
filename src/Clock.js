@@ -26,10 +26,7 @@ import React, {Component} from 'react';
 
 
         leadingZero (num) {
-            if (num < 10) {
-                return '0' + num;
-            }
-            return num;
+            return num < 10 ? '0' + num : num;
         }
 
         getTimeUnti(deadline) {

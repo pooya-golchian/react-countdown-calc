@@ -6,4 +6,4 @@ Live Demo URL [LIVE DEMO][1]
 
 
 
-[1] : http://pooyagolchian.ir/react-countdown-calc/
+[1]: http://pooyagolchian.ir/react-countdown-calc/

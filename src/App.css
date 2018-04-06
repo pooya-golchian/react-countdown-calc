@@ -41,9 +41,56 @@ body {
 .countdown__form input {
   display: flex;
   flex: 10 2;
+  padding: .5em;
+  border-radius: 1em;
+  box-shadow: none;
+  border: 1px solid #333;
+  text-indent: .7em;
 }
-
+.countdown__form input:hover,
+.countdown__form input:active,
+.countdown__form input:after,
+.countdown__form input:before,
+.countdown__form input:focus {
+  outline: none;
+}
 .countdown__form button {
   display: flex;
   flex: 1 2;
+  border-radius: 1em;
+  margin-left: .25em;
+  background: black;
+  color: white;
+  border: 0;
+  padding-left: .9em;
+  padding-right: .9em;
+}
+
+
+
+
+
+.countdown__form button:hover {
+  display: flex;
+  flex: 1 2;
+  border-radius: 1em;
+  background: white;
+  color: black;
+  border: 1px solid black;
+}
+.countdown__form button:focus {
+  display: flex;
+  flex: 1 2;
+  border-radius: 1em;
+  background: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.countdown__form button:hover,
+.countdown__form button:active,
+.countdown__form button:after,
+.countdown__form button:before,
+.countdown__form button:focus {
+  outline: none;
 }

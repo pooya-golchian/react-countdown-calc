@@ -1,6 +1,7 @@
 # React Countdown Calculator
 
-React countdown calculator build with creact-react-app (react 16).
+React countdown calculator built with creact-react-app (react 16).
+Countdown to Christmas 2018 and anytimes you want :-)
 
 
 

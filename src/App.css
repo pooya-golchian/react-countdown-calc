@@ -1,3 +1,6 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}
 body {
   display: flex;
   font-size: 1em;
@@ -5,6 +8,9 @@ body {
   padding: 0;
   margin: 0 auto;
   justify-content: center;
+  background: #f3f3f3;
+  font-family: 'Raleway', sans-serif;
+
 }
 
 .countdown__container {
@@ -46,6 +52,7 @@ body {
   box-shadow: none;
   border: 1px solid #333;
   text-indent: .7em;
+  background: #e3e3e3;
 }
 .countdown__form input:hover,
 .countdown__form input:active,
@@ -53,6 +60,7 @@ body {
 .countdown__form input:before,
 .countdown__form input:focus {
   outline: none;
+  background: white;
 }
 .countdown__form button {
   display: flex;
